@@ -1,0 +1,143 @@
+<!DOCTYPE html> <!-- Declares HTML5 document -->
+<html> <!-- Root element of the page -->
+
+<head> <!-- Contains metadata, title, links, scripts -->
+
+    <title>My Webpage</title> <!-- Shows name on browser tab -->
+
+    <meta charset="UTF-8"> <!-- Supports all languages (Unicode) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes website responsive on mobile -->
+    <meta name="description" content="Short info shown in Google search"> <!-- SEO: Search Engine Optimization -->
+    <meta name="author" content="Your Name"> <!-- Who created the page -->
+
+    <link rel="stylesheet" href="style.css"> <!-- Link external CSS file -->
+    <script src="script.js"></script> <!-- Link external JavaScript file -->
+
+</head>
+
+<body> <!-- All visible content goes inside body -->
+
+    <!-- ================= TEXT & HEADINGS ================= -->
+
+    <h1>Main Heading</h1> <!-- Largest heading -->
+    <h2>Sub Heading</h2> <!-- Second largest -->
+    <p>This is a paragraph.</p> <!-- Standard text block -->
+
+    <b>Bold text</b> <!-- Bold visually -->
+    <strong>Strong text</strong> <!-- Bold + important -->
+    <i>Italic text</i> <!-- Italic -->
+    <em>Emphasized text</em> <!-- Stress emphasis -->
+    <u>Underlined</u> <!-- Underline -->
+    <br> <!-- Line break -->
+    <hr> <!-- Horizontal line -->
+
+    <!-- ================= LINKS & IMAGES ================= -->
+
+    <a href="https://google.com">Open Google</a> <!-- Normal link -->
+    <a href="page.html" target="_blank">Open New Tab</a> <!-- Open in new tab -->
+
+    <img src="photo.jpg" alt="My Photo" width="200"> <!-- Display image, alt = accessibility -->
+
+    <!-- ================= LISTS ================= -->
+
+    <ul> <!-- Unordered list (bullets) -->
+        <li>Item 1</li> <!-- List item -->
+        <li>Item 2</li>
+    </ul>
+
+    <ol> <!-- Ordered list (numbers) -->
+        <li>First</li>
+        <li>Second</li>
+    </ol>
+
+    <dl> <!-- Description list -->
+        <dt>HTML</dt> <!-- Term -->
+        <dd>HyperText Markup Language</dd> <!-- Definition -->
+    </dl>
+
+    <!-- ================= TABLE ================= -->
+
+    <table border="1"> <!-- Table with border -->
+        <tr> <!-- Table row -->
+            <th>Name</th> <!-- Header cell -->
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>John</td> <!-- Normal cell -->
+            <td>25</td>
+        </tr>
+    </table>
+
+    <!-- ================= FORM ================= -->
+
+    <form action="/submit" method="post"> <!-- Form sending data to server -->
+
+        <label>Username:</label> <!-- Label for input -->
+        <input type="text" name="username"> <!-- Text box -->
+
+        <input type="password" name="pass"> <!-- Password input -->
+        <input type="email" name="email"> <!-- Email input -->
+
+        <input type="radio" name="gender" value="male"> Male <!-- Select only one -->
+        <input type="radio" name="gender" value="female"> Female
+
+        <input type="checkbox" name="subscribe"> Subscribe <!-- Multiple selection -->
+
+        <select> <!-- Dropdown menu -->
+            <option>Option 1</option>
+            <option>Option 2</option>
+        </select>
+
+        <textarea rows="4">Write here...</textarea> <!-- Multi-line text -->
+
+        <input type="file"> <!-- Upload file -->
+        <input type="date"> <!-- Date selector -->
+        <input type="color"> <!-- Color picker -->
+        <input type="range" min="0" max="100"> <!-- Slider -->
+
+        <input type="submit" value="Submit"> <!-- Submit button -->
+        <input type="reset" value="Reset"> <!-- Reset form -->
+    </form>
+
+    <!-- ================= DIV & SPAN ================= -->
+
+    <div>Block element (full width)</div> <!-- Container for layout -->
+    <span>Inline element</span> <!-- Inline-level container -->
+
+    <!-- ================= MEDIA ================= -->
+
+    <video width="300" controls> <!-- Add video -->
+        <source src="movie.mp4" type="video/mp4"> <!-- Video file -->
+    </video>
+
+    <audio controls> <!-- Add audio -->
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ================= SEMANTIC TAGS ================= -->
+
+    <header>Top section of website</header>
+    <nav>Navigation links</nav>
+    <main>Main content of page</main>
+    <section>Section of content</section>
+    <article>Independent article/post</article>
+    <aside>Sidebar content</aside>
+    <footer>Footer area</footer>
+
+    <!-- ================= IFRAME ================= -->
+
+    <iframe src="page.html" width="400" height="300"></iframe> <!-- Embed webpage -->
+
+    <!-- ================= HTML ENTITIES ================= -->
+    &nbsp; <!-- Non-breaking space -->
+    &lt;  <!-- Less than sign (<) -->
+    &gt;  <!-- Greater than sign (>) -->
+    &copy; <!-- Copyright symbol -->
+    &hearts; <!-- Heart -->
+
+    <!-- ================= COMMENTS ================= -->
+    <!-- This is a comment (ignored by browser) -->
+
+</body>
+</html>

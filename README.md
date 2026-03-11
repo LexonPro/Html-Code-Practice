@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# HTML Learning Modules
 
 
@@ -52,3 +53,7 @@ This repository contains structured modules for learning HTML.
 
 
 
+=======
+# Html-Code-Practice
+All HTML Practice Code
+>>>>>>> 73d813479d6dab8863e9c567ac9ca67593c1c62c
