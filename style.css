@@ -1,29 +1,54 @@
 body {
-    font-family: Arial;
-    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
     background: #0f172a;
     color: white;
 }
 
-h1 {
-    margin-top: 20px;
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+header h1 {
+    font-size: 2.5rem;
 }
 
-li {
-    margin: 10px;
+header p {
+    color: #94a3b8;
 }
 
-a {
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+/* Cards */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
     text-decoration: none;
-    color: #38bdf8;
-    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+    text-align: center;
 }
 
-a:hover {
-    color: #facc15;
+/* Hover Effect */
+.card:hover {
+    background: #38bdf8;
+    color: black;
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
 }
